@@ -8,6 +8,6 @@ An OpenVR driver that accepts input from your android device with 6DOF.
 4. Use the calibrate button to connect your phone with your playspace. Align the phone so that the top of it points into the tracker from below. Press calibrate again to set the position.<br/>
 
 <h2>Help</h2>
-1.<b> I don't see my controller moving/it is unresponsive:</b> Your phone probably cannot see your computer. Make sure you're on the same network and double check the IP.<br/>
-2. I don't see anything when I press calibrate: Look around your playspace. It should spawn slightly in front of where you first opened SteamVR. If you opened SteamVR at your desk, then walked over to another part of the room to play, look back at your desk.<br/>
-3. My rotation is f-ed when I calibrate: Angle the phone more vertically when you calibrate. Holding it horizontally can mess it up.<br/>
+1. <b>I don't see my controller moving/it is unresponsive:</b> Your phone probably cannot see your computer. Make sure you're on the same network and double check the IP.<br/>
+2. <b>I don't see anything when I press calibrate:</b> Look around your playspace. It should spawn slightly in front of where you first opened SteamVR. If you opened SteamVR at your desk, then walked over to another part of the room to play, look back at your desk.<br/>
+3. <b>My rotation is f-ed when I calibrate:</b> Angle the phone more vertically when you calibrate. Holding it horizontally can mess it up.<br/>
