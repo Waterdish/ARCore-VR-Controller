@@ -31,6 +31,7 @@ public class ReportPosition : MonoBehaviour
     public GameObject connectbuttons;
     public GameObject UI_AButton;
     public GameObject UI_BButton;
+    string Host = "192.168.254.101";
 
 
     //keeping these here just for reference.
@@ -51,6 +52,11 @@ public class ReportPosition : MonoBehaviour
         else
         {
             controller = "R";
+        }
+        if (PlayerPrefs.HasKey("host"))
+        {
+            Host = PlayerPrefs.GetString("host");
+            Debug.Log(Host);
         }
         mainCamera = Camera.main;
         //networkEnable();
@@ -191,7 +197,6 @@ public class ReportPosition : MonoBehaviour
     NetworkStream theStream;
     StreamWriter theWriter;
     StreamReader theReader;
-    string Host = "192.168.254.126";
     Int32 Port = 55455;
 
     void networkEnable()
